@@ -1,0 +1,1 @@
+docker container run -itd -v $PWD/nginx/html/:/usr/share/nginx/html/ -v $PWD/nginx/conf.d/:/etc/nginx/conf.d/ -p 80:80  nginx
